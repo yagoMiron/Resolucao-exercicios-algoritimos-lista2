@@ -9,9 +9,9 @@ const prompt = require('prompt-sync')();
 // algo muito estudado na programação, irei passar duas formas de resolver, uma que serve
 // apenas para ordenar 3 items e outra para ordenar qualquer numero de items
 
-let numero1 = prompt("Escreva o primeiro valor ")
-let numero2 = prompt("Escreva o segundo valor ")
-let numero3 = prompt("Escreva o terceiro valor ")
+let numero1 = Number(prompt("Escreva o primeiro valor "))
+let numero2 = Number(prompt("Escreva o segundo valor "))
+let numero3 = Number(prompt("Escreva o terceiro valor "))
 
 // primeira forma:
 
